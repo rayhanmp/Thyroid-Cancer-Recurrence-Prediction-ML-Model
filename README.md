@@ -12,14 +12,14 @@ For this project, there are five major success criteria that we will try to achi
 3.  AUC-ROC Score >= 80%
 4.  F1 Score >= 80%
 
-## Steps Taken
+## ⚒ Steps
 1. Try to gain insights from the data by using various data visualisation methods, but the most important one here is the **heatmap correlation matrix**. We then test whether the two variables are independent/dependent to each other using **Chi-Square Test**.
 2. Afterward, do data preparation: since the data is categorical, we need to **encode it using SKLearn Label Encoder**. Also, use **MinMaxScaler** to scale the Age value. Last but not least, **split the data** into two sets (training and validation dataset) and **augment the training dataset using SMOTE** to try to balance the data.
 3. Train various classical ML model using **SKLearn** and **Catboost**, then tune the hyperparameters using **GridSearchCV** to make the process more efficient.
 4. Make the **ANN** model using **TensorFlow** and tune the **hyperparameter**.
 5. **Evaluate each model** to see whether they pass the success criteria.
 
-## Results
+## ⭐ Results
 | Model | Accuracy | Recall | F1-Score | AUC-ROC |
 |-|-|-|-|-|
 | KNN | 0.904348 | 0.78125 | 0.819672 | 0.866529 |
